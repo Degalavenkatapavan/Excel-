@@ -1,21 +1,20 @@
-Day Topics to Cover
-Day 1 Introduction to Excel, History, Features, Market Demand, Installation
-Day 2 Excel Interface, Workbook, Worksheet, Ribbon, Formula Bar
-Day 3 Data Entry, Default Alignment, Basic Formatting
-Day 4 Number Formatting, Date Formatting, Custom Formats
-Day 5 Formulas, Order of Operation, Cell Referencing
-Day 6 Basic Functions: SUM, AVERAGE, COUNT, MAX, MIN, RANK
-Day 7 Conditional Functions: SUMIF, COUNTIF, AVERAGEIF
-Day 8 Math Functions: ROUND, RAND, RANDBETWEEN
-Day 9 Text Functions: CONCAT, UPPER, LOWER, TRIM, LEN
-Day 10 Text Extraction: LEFT, RIGHT, MID, SUBSTITUTE, REPLACE
-Day 11 Date Functions: TODAY, NOW, DATEDIF, WORKDAY
-Day 12 Logical Functions: IF, IFERROR, IFNA
-Day 13 Lookup Functions: LOOKUP, VLOOKUP, HLOOKUP
-Day 14 Advanced Lookup: INDEX, MATCH, XLOOKUP, UNIQUE
-Day 15 Conditional Formatting
-Day 16 Data Validation Basics
-Day 17 Advanced Data Validation, Tables, Pivot Tables
-Day 18 Pivot Tables, Slicers, Visualization
-Day 19 Data Cleaning Techniques
-Day 20 Power Query, Macros, Revision & Project
+
+Introduction to Excel, History, Features, Market Demand, Installation
+ Excel Interface, Workbook, Worksheet, Ribbon, Formula Bar
+ Data Entry, Default Alignment, Basic Formatting
+ Number Formatting, Date Formatting, Custom Formats
+ Formulas, Order of Operation, Cell Referencing
+ Basic Functions: SUM, AVERAGE, COUNT, MAX, MIN, RANK
+ Conditional Functions: SUMIF, COUNTIF, AVERAGEIF
+ Math Functions: ROUND, RAND, RANDBETWEEN
+ Text Functions: CONCAT, UPPER, LOWER, TRIM, LEN
+ Text Extraction: LEFT, RIGHT, MID, SUBSTITUTE, REPLACE
+ Date Functions: TODAY, NOW, DATEDIF, WORKDAY
+ Logical Functions: IF, IFERROR, IFNA
+ Lookup Functions: LOOKUP, VLOOKUP, HLOOKUP
+ Advanced Lookup: INDEX, MATCH, XLOOKUP, UNIQUE
+ Conditional Formatting
+ Data Validation Basics
+ Advanced Data Validation, Tables, Pivot Tables Pivot Tables, Slicers, Visualization
+ Data Cleaning Techniques
+ Power Query, Macros, Revision & Project
