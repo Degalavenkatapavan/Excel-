@@ -1,0 +1,738 @@
+1. What is Excel?
+Definition:
+ Microsoft Excel is a spreadsheet software developed by Microsoft that is used to store, organize, calculate, and analyze data in a tabular format.
+2. Uses of Excel
+Excel is used in almost every field because it handles numbers and data efficiently.
+Major Uses:
+●	Data entry and record keeping
+
+●	Calculations using formulas
+
+●	Data analysis
+
+●	Creating charts and graphs
+
+●	Financial tasks (budgets, salary sheets)
+
+●	Reporting
+
+Examples:
+●	A company tracks employee salaries in Excel.
+
+●	A shop owner maintains daily sales records.
+
+●	A student creates a monthly expense sheet.
+
+3. Excel for Data Visualization & Analysis
+A. Data Analysis
+Excel helps us understand data by:
+●	Sorting (arranging data A–Z, low to high)
+
+●	Filtering (showing only needed data)
+
+●	Using formulas (SUM, AVERAGE, COUNT, IF, etc.)
+
+●	Pivot Tables (summarizing large data)
+
+Example:
+ From a list of 100 students’ marks, Excel can quickly find:
+●	Class average
+
+●	Highest and lowest marks
+
+●	Number of students who passed
+
+B. Data Visualization
+Excel can turn numbers into charts and graphs.
+Types of charts:
+●	Bar chart
+
+●	Column chart
+
+●	Pie chart
+
+●	Line chart
+
+Example:
+ Monthly sales data can be shown as a bar graph to see which month had the highest sales.
+4. Installation of Excel
+Excel comes as part of Microsoft Office / Microsoft 365.
+Basic Steps:
+1.	Go to the official Microsoft website.
+
+2.	Purchase or sign in with Microsoft 365 account.
+
+3.	Download the Office setup file.
+
+4.	Run the installer and follow instructions.
+
+5.	After installation, open Excel from Start Menu.
+
+5. Excel Interface & Attributes
+When you open Excel, you see many parts. These help you work easily.
+Row
+●	A horizontal line of cells.
+
+●	Numbered as 1, 2, 3…
+
+Example: Row 1 may contain column headings like Name, Age, Marks.
+Row Header
+●	The numbers on the left side (1, 2, 3…).
+
+●	They identify each row.
+Column
+●	A vertical line of cells.
+
+●	Named A, B, C…
+
+Example: Column A → Student Names
+ Column B → Marks
+Column Header
+●	The letters at the top (A, B, C…).
+
+●	They identify each column.
+
+
+Cell
+●	The intersection of a row and column.
+
+●	Each cell has an address.
+
+Example: Cell B2 means Column B and Row 2.
+
+Active Cell
+●	The cell that is currently selected.
+
+●	It has a bold border.
+
+Example: When you click on C3, it becomes the active cell where you type data.
+
+Ribbon
+●	The strip at the top of Excel containing tools and commands.
+
+●	Helps in formatting, formulas, charts, etc.
+
+
+Ribbon Tabs
+Different sections of the Ribbon:
+●	Home
+
+●	Insert
+
+●	Page Layout
+
+●	Formulas
+
+●	Data
+
+●	Review
+
+●	View
+
+Example: To insert a chart → Go to Insert tab.
+
+Quick Access Toolbar (QAT)
+●	Small toolbar at the top-left corner.
+
+●	Contains frequently used commands like Save, Undo, Redo.
+
+●	Can be customized.
+
+Shortcuts (Keyboard Shortcuts)
+These help work faster.
+Shortcut	Function
+Ctrl + C	Copy
+Ctrl + V	Paste
+Ctrl + S	Save
+Ctrl + Z	Undo
+Ctrl + X	Cut
+Ctrl + A	Select all
+Numerical Functions in Excel
+These functions are mainly used to perform calculations and data analysis.
+
+1. SUM
+Definition: Adds a group of numbers.
+Syntax:
+ =SUM(range)
+Example:
+ Marks in A1:A5 → 50, 60, 70, 80, 90
+ =SUM(A1:A5) → 350
+
+2. COUNT
+Definition: Counts cells that contain numbers only.
+Syntax:
+ =COUNT(range)
+Example:
+ A1=10, A2=Text, A3=25
+ =COUNT(A1:A3) → 2
+
+3. MAX
+Definition: Returns the largest number in a range.
+Example:
+ =MAX(A1:A5) → Highest mark
+
+4. MIN
+Definition: Returns the smallest number in a range.
+Example:
+ =MIN(A1:A5) → Lowest mark
+
+5. AVERAGE
+Definition: Finds the mean (average) of numbers.
+Formula:
+ =AVERAGE(A1:A5)
+If total = 350 and 5 students → 70
+
+6. RANK
+Definition: Gives the position of a number in a list.
+Syntax:
+ =RANK(number, range)
+Example:
+ Marks: 90, 80, 70
+ =RANK(80, A1:A3) → 2
+
+7. COUNTIF
+Definition: Counts cells that meet one condition.
+Syntax:
+ =COUNTIF(range, criteria)
+Example:
+ Count students scoring above 50
+ =COUNTIF(A1:A10, ">50")
+
+8. COUNTIFS
+Definition: Counts cells with multiple conditions.
+Example:
+ =COUNTIFS(A1:A10, ">50", B1:B10, "Pass")
+
+9. SUMIF
+Definition: Adds numbers based on one condition.
+Example:
+ Sum marks of students who passed
+ =SUMIF(B1:B10, "Pass", A1:A10)
+
+10. SUMIFS
+Definition: Adds numbers using multiple conditions.
+Example:
+ =SUMIFS(A1:A10, B1:B10, "Pass", C1:C10, "Section A")
+
+11. AVERAGEIF
+Definition: Average based on one condition.
+Example:
+ =AVERAGEIF(B1:B10, "Pass", A1:A10)
+
+12. AVERAGEIFS
+Definition: Average with multiple conditions.
+Example:
+ =AVERAGEIFS(A1:A10, B1:B10, "Pass", C1:C10, "Section A")
+
+13. COUNTA
+Definition: Counts non-empty cells (text, numbers, symbols).
+Example:
+ A1=10, A2=Text, A3=blank
+ =COUNTA(A1:A3) → 2
+
+14. COUNTBLANK
+Definition: Counts empty cells.
+Example:
+ =COUNTBLANK(A1:A10)
+
+15. ROUND
+Definition: Rounds a number to a specified number of digits.
+Syntax:
+ =ROUND(number, digits)
+Example:
+ =ROUND(45.678, 2) → 45.68
+
+16. ROUNDUP
+Definition: Always rounds up.
+Example:
+ =ROUNDUP(45.123, 2) → 45.13
+
+17. ROUNDDOWN
+Definition: Always rounds down.
+Example:
+ =ROUNDDOWN(45.987, 2) → 45.98
+TEXT FUNCTIONS
+Used to clean, extract, and combine text.
+
+1. UPPER
+Converts text to uppercase.
+=UPPER(text)
+Example:
+ A1 = "srusti"
+ =UPPER(A1) → ROSS
+
+2. LOWER
+Converts text to lowercase.
+=LOWER(A1) → ross
+
+3. PROPER
+Capitalizes the first letter of each word.
+=PROPER("data analytics") → Data Analytics
+
+4. LEFT
+Extracts text from the left side.
+=LEFT(text, number_of_characters)
+A1 = "Excel2026"
+ =LEFT(A1,5) → Excel
+
+5. RIGHT
+Extracts text from the right side.
+=RIGHT(A1,4) → 2026
+
+6. MID
+Extracts text from the middle.
+=MID(text, start_position, number_of_characters)
+=MID("SRUSTI",2,3) → RUS
+
+7. CONCAT / CONCATENATE / &
+Joins text.
+●	=CONCAT(A1,B1)
+
+●	=A1&B1
+
+●	(Old version) =CONCATENATE(A1,B1)
+
+A1="Data", B1="Science" → DataScience
+
+8. TEXTJOIN
+Joins text with a separator.
+=TEXTJOIN(" ", TRUE, A1:A3)
+A1=Excel, A2=Data, A3=Analysis
+ → Excel Data Analysis
+
+9. TRIM
+Removes extra spaces.
+=TRIM(" Excel Class ") → Excel Class
+
+10. SUBSTITUTE
+Replaces specific text.
+=SUBSTITUTE("2025 Report","2025","2026")
+ → 2026 Report
+
+ DATE FUNCTIONS
+
+1. TODAY
+Returns current date.
+=TODAY() → 11-02-2026
+
+2. NOW
+Returns date + time.
+=NOW()
+
+3. YEAR
+Extracts year.
+=YEAR("11-02-2026") → 2026
+
+4. MONTH
+=MONTH(A1) → Month number
+
+5. DAY
+=DAY(A1) → Day number
+
+6. DAYS
+Difference between two dates.
+=DAYS("11-02-2026","01-02-2026") → 10
+
+7. DAYS360
+Calculates days based on 360-day year (used in finance).
+
+LOGICAL FUNCTIONS
+
+1. IF
+Performs a logical test.
+=IF(condition, true_value, false_value)
+Marks in A1
+ =IF(A1>=40,"Pass","Fail")
+
+2. AND
+All conditions must be TRUE.
+=AND(A1>40,B1="Yes")
+
+3. OR
+Any one condition TRUE.
+
+4. IFERROR
+Shows alternative result if formula gives error.
+=IFERROR(A1/B1,"Error")
+5. IFNA
+Handles only #N/A errors.
+
+6. IFS
+Multiple conditions.
+=IFS(A1>=90,"A",A1>=75,"B",A1>=50,"C")
+LOOKUP FUNCTIONS
+Used to search data in tables.
+
+1. VLOOKUP
+Searches vertically.
+=VLOOKUP(value, table, column_number, FALSE)
+Find marks using roll number.
+
+2. HLOOKUP
+Searches horizontally.
+
+3. INDEX
+Returns value from a position.
+=INDEX(A1:C5,2,3)
+
+4. MATCH
+Finds position.
+=MATCH("Srusti",A1:A10,0)
+
+5. INDEX + MATCH
+Advanced lookup, more flexible than VLOOKUP.
+
+6. LOOKUP
+Older function, approximate match.
+
+7. XLOOKUP
+Modern replacement of VLOOKUP.
+=XLOOKUP(value, lookup_array, return_array)
+DATA VALIDATION
+Definition:
+Data Validation is a feature in Excel that controls what type of data can be entered in a cell. It helps avoid mistakes.
+
+1. Whole Numbers
+Allows only integers.
+Example:
+Marks should be between 0 and 100.
+Setting → Whole Number → Between → 0 and 100
+If a student enters 150 → Excel shows error.
+
+2. Decimals
+Allows decimal numbers.
+Example:
+Percentage field → 0.00 to 100.00
+
+3. List (Dropdown List)
+A. Single List
+Creates a dropdown menu.
+Example:
+Field: Gender
+List → Male, Female, Other
+
+B. Dependent List
+Second dropdown depends on first.
+Example:
+First list → Country (India, USA)
+Second list → States change based on country selected.
+
+4. Date
+Restricts to valid dates.
+Example:
+Project start date must be after 01-01-2026.
+
+5. Time
+Restricts time entries.
+Example:
+Office timing: Only 9:00 AM – 6:00 PM allowed.
+
+CONDITIONAL FORMATTING
+Definition:
+Automatically changes cell formatting based on conditions.
+
+1. Highlight Cell Rules
+Highlights cells meeting conditions.
+Examples:
+●	Greater than 80 → Green
+●	Less than 40 → Red
+
+2. Top/Bottom Rules
+Finds top or bottom values.
+Examples:
+●	Top 5 students
+●	Bottom 10% sales
+
+3. Data Bars
+Shows bars inside cells to compare values visually.
+Example:
+Higher marks → longer bar.
+
+4. Color Scales
+Applies gradient colors.
+Example:
+High sales → green
+Low sales → red
+
+5. Icon Sets
+Uses symbols (arrows, traffic lights).
+Example:
+↑ Profit increase
+↓ Profit decrease
+
+TABLES & PIVOT TABLES
+
+What is a Table?
+A structured data range with filtering, sorting, and formatting.
+
+Creating Tables
+1.	Select data
+2.	Press Ctrl + T
+3.	Confirm headers
+
+Sorting & Filtering
+●	Sorting → A to Z, Smallest to Largest
+●	Filtering → Show only selected data
+Example:
+Filter to see only “Section A” students.
+
+PIVOT TABLES
+What is a Pivot Table?
+A tool to summarize and analyze large data quickly.
+
+Creating Pivot Tables
+1.	Select data
+2.	Insert → Pivot Table
+3.	Choose fields
+
+Data Analysis using Pivot Tables
+You can:
+●	Total sales by region
+●	Count students by department
+●	Average marks by subject
+Example:
+Rows → Subject
+Values → Average Marks
+→ Shows subject-wise performance
+DATA CLEANING
+Definition:
+ Data cleaning is the process of detecting and correcting errors, inconsistencies, and unwanted data to make data ready for analysis.
+
+1. Removing Duplicates
+Duplicate data means the same record appears more than once.
+Excel Tool: Data → Remove Duplicates
+Example:
+ Student list shows same roll number twice → remove extra entry.
+
+2. Handling Missing Values
+Missing values are blank or null cells.
+Ways to handle:
+●	Fill with average
+
+●	Fill with 0
+
+●	Replace with “Not Available”
+
+●	Delete row (if too many missing)
+
+Example:
+ If salary is missing → fill with department average.
+
+3. Text Cleaning
+Fixing text issues like extra spaces, wrong case, unwanted symbols.
+Functions used:
+●	TRIM() → removes extra spaces
+
+●	UPPER()/LOWER() → fixes case
+
+●	SUBSTITUTE() → replace wrong text
+
+Example:
+ " srusti b s " → cleaned to "Srusti B S"
+
+4. Using Data Tools in Excel
+●	Text to Columns
+
+●	Remove Duplicates
+
+●	Sort & Filter
+
+●	Find & Replace
+
+
+DATA ANALYTICS
+
+What is Data Analytics?
+Data Analytics is the process of examining data to discover patterns, trends, and useful information for decision-making.
+Example:
+ A company analyzes sales data to know which product sells most.
+
+Types of Analytics
+Type	Meaning	Example
+Descriptive	What happened?	Monthly sales report
+Diagnostic	Why did it happen?	Why sales dropped in June
+Predictive	What may happen?	Forecast next month sales
+Prescriptive	What should we do?	Suggest marketing strategy
+
+
+Data vs Information
+Data	Information
+Raw facts	Processed data
+Example: 45, 78, 90	“Average marks = 71”
+
+Structured vs Unstructured Data
+Structured	Unstructured
+Organized in tables	No fixed format
+Excel sheet	Emails, videos
+
+Data Lifecycle
+1.	Data Collection
+
+2.	Data Storage
+
+3.	Data Cleaning
+
+4.	Data Analysis
+
+5.	Data Visualization
+
+6.	Decision Making
+
+
+Real-world Analytics Examples
+●	Netflix recommends movies based on viewing history
+
+●	Amazon suggests products
+
+●	Banks detect fraud
+
+●	Hospitals predict disease trends
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Statistics for Data Analysis
+Concept	Meaning	Excel Function
+Mean	Average	AVERAGE
+Median	Middle value	MEDIAN
+Mode	Most frequent	MODE
+Standard Deviation	Spread of data	STDEV
+Variance	Data variability	VAR
+Example:
+ Class marks → Mean = overall performance
+ Std Dev = how much students differ
+
+DATA VISUALIZATION & ADVANCED EXCEL
+
+1. Charts
+Charts turn numbers into visuals.
+Insert → Charts
+Common Types:
+●	Column/Bar Chart → compare categories
+
+●	Line Chart → show trends over time
+
+●	Pie Chart → show proportions
+
+●	Scatter Plot → show relationships
+
+Example:
+ Monthly sales data → Line chart to show growth.
+
+2. Pivot Charts
+Charts created from Pivot Tables.
+Why useful?
+●	Automatically updates when Pivot Table changes
+
+●	Good for summaries
+
+Example:
+ Pivot Table: Sales by region
+ Pivot Chart → Visual comparison of regions.
+
+3. Dashboards
+A single screen showing key information using charts, tables, KPIs.
+Purpose: Quick decision-making.
+Example Dashboard Shows:
+●	Total Sales
+
+●	Top Product
+
+●	Monthly Trend
+
+●	Region-wise performance
+
+
+4. Interactive Dashboards
+Dashboards where users can change filters.
+Tools Used:
+●	Slicers
+
+●	Timelines
+
+●	Dropdowns
+
+Example:
+ Click “Region = South” → All charts update.
+
+5. Power Pivot
+Advanced data modeling tool.
+Used for:
+●	Handling large data
+
+●	Creating relationships between tables
+
+●	Advanced calculations (DAX formulas)
+
+Example:
+ Link Sales table with Product table using Product ID.
+
+6. Power Query
+Tool for importing and cleaning data automatically.
+Used for:
+●	Importing from Excel, CSV, Web
+
+●	Removing duplicates
+
+●	Splitting columns
+
+●	Transforming data
+
+Example:
+ Monthly sales files combined into one report.
+
+DATA VISUALIZATION PRINCIPLES
+
+
+1. Choosing the Right Chart
+Situation	Best Chart
+Compare categories	Bar/Column
+Trend over time	Line
+Distribution	Histogram
+Relationship	Scatter
+
+2. Data Storytelling
+Using visuals to explain insights clearly.
+Example Story:
+ “Sales dropped in June due to low marketing but increased after promotions.”
+
+3. Avoiding Misleading Visuals
+Bad visuals can confuse.
+•	Wrong Y-axis scale
+•	 Too many colors
+•	3D charts
+•	Keep it simple and honest.
+
+4. KPI Design (Key Performance Indicators)
+KPIs measure performance.
+Good KPI should be:
+●	Clear
+
+●	Measurable
+
+●	Relevant
+
+Examples:
+●	Revenue Growth %
+
+●	Customer Retention Rate
+
+●	Average Delivery Time
+
+
+5. Dashboard Best Practices
+•	Keep it simple
+•	Use consistent colors
+•	Highlight key number
+•	Avoid clutter
+•	Use interactive filters
+•	Place most important info on top
+
