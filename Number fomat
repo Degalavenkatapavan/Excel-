@@ -1,0 +1,106 @@
+Number Format
+Number Format controls how a value is displayed in a cell.
+Types of Number Formats
+General (Default Format)
+•	Default format in Excel
+•	No specific formatting
+•	Displays numbers as entered
+Ex:
+      100
+Number
+•	Used for normal numbers
+•	Can set:
+o	Decimal places
+o	1000 separator (,)
+Example:
+1000 → 1,000
+25 → 25.00
+Currency
+•	Adds currency symbol
+•	Used for money values
+Example:
+1000 → ₹1,000.00
+1000 → $1,000.00
+Used in:
+•	Salary sheet
+•	Sales report
+
+
+
+
+Accounting
+Similar to Currency but:
+•	Symbols aligned properly
+•	Looks professional
+Mostly used in:
+•	Company financial reports
+Date
+Converts numbers into date format.
+Example:
+44500 → 12-02-2026
+Formats available:
+•	DD-MM-YYYY
+•	MM/DD/YYYY
+•	Long date
+Time
+Displays time values.
+Example:
+10:30 AM
+22:15
+Used in:
+•	Attendance
+•	Shift timings
+Percentage (%)
+Multiplies value by 100 and adds %.
+Example:
+0.5 → 50%
+0.25 → 25%
+Very important for:
+•	Profit %
+•	Growth %
+•	Marks %
+Fraction
+Displays number as fraction.
+Example:
+0.5 → 1/2
+0.25 → 1/4
+Text
+Treats value as text.
+Example:
+00123 will remain 00123
+Used for:
+•	Roll numbers
+•	Phone numbers
+•	ID numbers
+Custom Format
+User-defined format.
+Examples:
+•	Dates
+•	You  can custom your own dates
+•	 
+Increase / Decrease Decimal Buttons
+In Number group:
+•	Increase Decimal
+•	Decrease Decimal
+Used to control decimal places.
+Example:
+25.1234 → 25.12
+Formulas in Excel
+•	First click on the cell  then give operator according your requirements
+•	But remember excel formulas starts with ‘=’
+•	Click on enter
+•	Instead of doing again and again simply you can paste the results as well
+•	It’ll copy your formula not your Output or else you can drag to right or left.
+•	It’ll give the same output.
+•	This is nothing but Relative cell reference.
+•	According to the previous actions it’s giving the output.
+•	Basic Excel formula :  =H7+H8+H9+H10+H11+H12
+•	 
+•	You can drag as well
+•	 
+•	If you want to see the percentage then  you should use this formula 
+•	 
+
+
+
+
